@@ -1,4 +1,4 @@
-import { Robot } from '../models/robot';
+import { Robot } from '../models/robots';
 
 const store = 'Robots';
 

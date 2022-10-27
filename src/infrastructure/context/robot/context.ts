@@ -1,5 +1,5 @@
 import { createContext } from 'react';
-import { Robot } from '../../../features/robots/models/robot';
+import { Robot } from '../../../features/robots/models/robots';
 
 const initialContext: {
     robots: Array<Robot>;

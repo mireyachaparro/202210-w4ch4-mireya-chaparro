@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import { RobotContext } from '../../../../infrastructure/context/robot/context';
-import { Robot } from '../../models/robot';
+import { Robot } from '../../models/robots';
 
 export function RobotItem({ item }: { item: Robot }) {
     const { handlerEraser, handlerHuman } = useContext(RobotContext);
