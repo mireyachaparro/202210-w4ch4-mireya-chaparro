@@ -1,5 +1,13 @@
-import './app.css';
+import { RobotList } from '../../../features/robots/components/robot.list/robot.list';
+import { RobotContextProvider } from '../../context/robot/provider';
+import { Layout } from '../layout/layout';
 
 export function App() {
-    return <div className="app">Probando</div>;
+    return (
+        <Layout>
+            <RobotContextProvider>
+                <RobotList></RobotList>
+            </RobotContextProvider>
+        </Layout>
+    );
 }
