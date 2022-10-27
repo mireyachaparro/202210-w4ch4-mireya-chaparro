@@ -1,2 +1,11 @@
-*{box-sizing:border-box}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-family:Arial,Helvetica,sans-serif;margin:0;min-height:100vh}
+* {
+    box-sizing: border-box;
+}
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
 /*# sourceMappingURL=main.c297fa28.css.map*/
