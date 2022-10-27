@@ -1,10 +1,11 @@
 import { useState } from 'react';
-import { Robot } from '../../../features/robots/models/robot';
+import { Robot } from '../../../features/robots/models/robots';
 import { RobotApi } from '../../../features/robots/services/task.api';
 import { RobotContext } from './context';
+import * as robotData from '..//..//..//features/robots/models/robots';
 
 export function RobotContextProvider({ children }: { children: JSX.Element }) {
-    const initialRobots: Array<Robot> = [];
+    const initialRobots: Array<Robot> = robotData.robots;
     const [robots, setRobots] = useState(initialRobots);
     const api = new RobotApi();
 
