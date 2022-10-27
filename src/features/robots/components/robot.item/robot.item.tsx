@@ -20,9 +20,24 @@ export function RobotItem({ item }: { item: Robot }) {
                 checked={item.isHuman}
                 onChange={handleChange}
             />
-            <span>{item.id}</span> -<span>{item.name}</span>
+            <span>{item.name}</span>
+            <br />
+            <span>
+                <img
+                    src={item.img}
+                    alt={'Picture of' + item.name}
+                    width="100"
+                ></img>
+            </span>
+            <br></br>
+            <span>Resistance: {item.resistance}</span>
+            <br />
+            <span>Speed: {item.speed}</span>
+            <br />
+            <span>Creation Date:{item.creationdate}</span>
+            <br />
             <span className="button" onClick={handleClick}>
-                🗑️
+                Borrar 🗑️
             </span>
         </li>
     );
