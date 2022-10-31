@@ -19,3 +19,5 @@ Crea una home page inicial y un menu que navegue entre la home y los robots. La 
 Dale persistencia en localStorage
 
 Dale persistencia en JSON-Server
+
+`git clone npm i`
