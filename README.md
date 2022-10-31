@@ -48,7 +48,6 @@ A continuación, la lista de componentes y su responsabilidad
 | favourite_die     | recoge de las props la funcion change que le pasa el padre, para matar. Ejecuta la funcion change del context y cambia la propiedad del item de vivo a muerto                                                              |
 | favourite_delete  | recoge de las props la funcion delete que le pasa el padre, para eliminarlo de favoritos. Ejecuta la funcion delete del context que filtra el array, devolviendo todo el array menos el que tiene la id que hemos filtrado |
 
-Diseño:
-https://www.figma.com/file/t8F0S45jg9wn32GGGnCdIc/Breaking-bad-challenge?node-id=0%3A1
+[Clic para ver el diseño](https://www.figma.com/file/t8F0S45jg9wn32GGGnCdIc/Breaking-bad-challenge?node-id=0%3A1)
 
 Si vas a clonar este proyecto, sigue las siguientes instrucciones:
