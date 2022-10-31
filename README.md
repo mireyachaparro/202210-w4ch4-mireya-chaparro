@@ -25,7 +25,7 @@ Dale persistencia en JSON-Server
 En este proyecto se ha creado una SPA con varias páginas en React, gestionando el estado común con context + reducer. La APP es responsive.
 Las vistas se cargan mediante lazy loading.
 También cuenta con Hooks de git y GitHub Actions
-La app se conectará a una API pública (https://breakingbadapi.com/documentation ) y listará los elementos. En dicho listado hay paginación
+La app se conectará a una [API pública](https://breakingbadapi.com/documentation) y listará los elementos. En dicho listado hay paginación
 A partir de este listado, se ha creado otro listado conectado a una API local, donde hemos implementado CRUD.
 La interfaz da feedback de cuando se está esperando una response de las APIs, y también gestiona los errores de éstas, es decir, saca una pantalla de error informando al usuario de que ha habido un error al intentar conectarse a la API.
 Pueder ver el proyecto desplegado en Netlify en este link
